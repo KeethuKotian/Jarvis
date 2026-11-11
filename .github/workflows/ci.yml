@@ -48,3 +48,4 @@ jobs:
       - name: Typecheck and Build Vite Bundle
         working-directory: ./frontend
         run: npm run build
+
