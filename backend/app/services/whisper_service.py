@@ -18,6 +18,18 @@ class WhisperService:
         self._init_model()
 
     def _init_model(self):
+        import os
+        # In automated CI or testing, prefer tiny.en if small.en is not locally cached
+        if (os.environ.get("CI") or os.environ.get("APP_ENV") == "testing") and self.model_size == "small.en":
+            try:
+                from faster_whisper import WhisperModel
+                self.model = WhisperModel(self.model_size, device="cpu", compute_type="int8", local_files_only=True)
+                self.is_loaded = True
+                logger.info("Loaded cached faster-whisper [%s] for testing.", self.model_size)
+                return
+            except Exception:
+                self.model_size = "tiny.en"
+
         try:
             from faster_whisper import WhisperModel
             logger.info("Initializing high-accuracy faster-whisper model (%s, int8 on CPU)...", self.model_size)
@@ -28,16 +40,16 @@ class WhisperService:
             self.is_loaded = True
             logger.info("faster-whisper [%s] engine loaded successfully and ready.", self.model_size)
         except Exception as e:
-            logger.warning("Failed to initialize faster-whisper [%s]: %s. Falling back to base.en or Cloud.", self.model_size, e)
+            logger.warning("Failed to initialize faster-whisper [%s]: %s. Falling back to base.en or tiny.en.", self.model_size, e)
             try:
                 from faster_whisper import WhisperModel
                 try:
-                    self.model = WhisperModel("base.en", device="cpu", compute_type="int8", local_files_only=True)
+                    self.model = WhisperModel("tiny.en", device="cpu", compute_type="int8", local_files_only=True)
                 except Exception:
-                    self.model = WhisperModel("base.en", device="cpu", compute_type="int8", local_files_only=False)
+                    self.model = WhisperModel("tiny.en", device="cpu", compute_type="int8", local_files_only=False)
                 self.is_loaded = True
-                self.model_size = "base.en"
-                logger.info("Loaded fallback faster-whisper [base.en].")
+                self.model_size = "tiny.en"
+                logger.info("Loaded fallback faster-whisper [tiny.en].")
             except Exception as e2:
                 logger.error("Could not load any faster-whisper model: %s", e2)
                 self.model = None
