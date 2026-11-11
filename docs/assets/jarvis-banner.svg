@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02050e"/>
+      <stop offset="50%" stop-color="#060e22"/>
+      <stop offset="100%" stop-color="#02040a"/>
+    </linearGradient>
+
+    <!-- Arc Glow Filters -->
+    <filter id="cyanGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Linear Gradients -->
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="100%" stop-color="#0077ff"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="hudGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.08"/>
+      <circle cx="0" cy="0" r="1" fill="#00f0ff" fill-opacity="0.2"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
+    .display { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; font-weight: 800; letter-spacing: 6px; }
+    .telemetry { font-family: 'Consolas', monospace; font-size: 11px; fill: #00f0ff; letter-spacing: 2px; opacity: 0.75; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+  <rect width="1200" height="400" fill="url(#hudGrid)"/>
+
+  <!-- Ambient Light Spotlights -->
+  <circle cx="240" cy="200" r="180" fill="#00f0ff" opacity="0.08" filter="url(#softGlow)"/>
+  <circle cx="950" cy="200" r="220" fill="#8b5cf6" opacity="0.06" filter="url(#softGlow)"/>
+
+  <!-- HUD Corner Accents -->
+  <path d="M 20 50 L 20 20 L 50 20" stroke="#00f0ff" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 1180 50 L 1180 20 L 1150 20" stroke="#00f0ff" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 20 350 L 20 380 L 50 380" stroke="#00f0ff" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 1180 350 L 1180 380 L 1150 380" stroke="#00f0ff" stroke-width="2" fill="none" opacity="0.6"/>
+
+  <!-- Top Status Bar -->
+  <text x="35" y="38" class="telemetry">SYS.VER // 2.5.0</text>
+  <text x="350" y="38" class="telemetry">QUANTUM NEURAL CORE // HYBRID ML + LLM</text>
+  <text x="960" y="38" class="telemetry">STATE // ALL SYSTEMS NOMINAL</text>
+  <line x1="30" y1="46" x2="1170" y2="46" stroke="#00f0ff" stroke-width="0.75" stroke-opacity="0.25"/>
+
+  <!-- ================= ARC REACTOR (Left) ================= -->
+  <g transform="translate(230, 205)">
+    <!-- Outer Ring -->
+    <circle cx="0" cy="0" r="125" fill="none" stroke="#00f0ff" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.4"/>
+    <circle cx="0" cy="0" r="115" fill="none" stroke="#0077ff" stroke-width="1" opacity="0.3"/>
+    
+    <!-- Outer Arc Flares -->
+    <path d="M -100 -50 A 115 115 0 0 1 100 -50" fill="none" stroke="#00f0ff" stroke-width="3" opacity="0.7" filter="url(#cyanGlow)"/>
+    <path d="M 100 50 A 115 115 0 0 1 -100 50" fill="none" stroke="#a855f7" stroke-width="3" opacity="0.7" filter="url(#cyanGlow)"/>
+
+    <!-- Segmented Stator Ring (10 segments) -->
+    <circle cx="0" cy="0" r="95" fill="none" stroke="#00f0ff" stroke-width="6" stroke-dasharray="32 28" opacity="0.8" filter="url(#cyanGlow)"/>
+    
+    <!-- Stator Plate Spokes -->
+    <g stroke="#00f0ff" stroke-width="2" opacity="0.6">
+      <line x1="0" y1="-95" x2="0" y2="-72"/>
+      <line x1="0" y1="95" x2="0" y2="72"/>
+      <line x1="-95" y1="0" x2="-72" y2="0"/>
+      <line x1="95" y1="0" x2="72" y2="0"/>
+      <line x1="-67" y1="-67" x2="-51" y2="-51"/>
+      <line x1="67" y1="-67" x2="51" y2="-51"/>
+      <line x1="-67" y1="67" x2="-51" y2="51"/>
+      <line x1="67" y1="67" x2="51" y2="51"/>
+    </g>
+
+    <!-- Inner Core Housing -->
+    <circle cx="0" cy="0" r="68" fill="#040c1e" stroke="#00f0ff" stroke-width="2.5" opacity="0.9" filter="url(#cyanGlow)"/>
+    <circle cx="0" cy="0" r="52" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.8"/>
+    
+    <!-- Inner Glowing Core -->
+    <circle cx="0" cy="0" r="38" fill="url(#cyanGrad)" opacity="0.3" filter="url(#cyanGlow)"/>
+    <circle cx="0" cy="0" r="28" fill="#ffffff" opacity="0.9" filter="url(#cyanGlow)"/>
+    
+    <!-- Inner Triangle Tri-Core -->
+    <polygon points="0,-24 21,12 -21,12" fill="none" stroke="#00f0ff" stroke-width="2" opacity="0.9"/>
+    <polygon points="0,24 -21,-12 21,-12" fill="none" stroke="#a855f7" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- ================= TYPOGRAPHY & BRANDING (Right) ================= -->
+  <g transform="translate(420, 105)">
+    <!-- Classification Pill -->
+    <rect x="0" y="0" width="230" height="24" rx="12" fill="#00f0ff" fill-opacity="0.1" stroke="#00f0ff" stroke-opacity="0.4"/>
+    <circle cx="14" cy="12" r="4" fill="#00f0ff"/>
+    <text x="26" y="16" class="mono" font-size="10.5" fill="#00f0ff" font-weight="600" letter-spacing="1.5">MARK VII // AUTONOMOUS OS</text>
+
+    <!-- Main Title: J.A.R.V.I.S. -->
+    <text x="0" y="90" class="display" font-size="64" fill="#ffffff" filter="url(#cyanGlow)">J.A.R.V.I.S.</text>
+    
+    <!-- Subtitle -->
+    <text x="2" y="130" class="display" font-size="16" fill="#00f0ff" letter-spacing="4" opacity="0.95">
+      PERSONAL AI OPERATING SYSTEM FOR WINDOWS 11
+    </text>
+
+    <!-- Description Paragraph -->
+    <text x="2" y="165" class="mono" font-size="13" fill="#94a3b8" letter-spacing="0.5">
+      Dual-Layer Architecture: Local Scikit-Learn Classifier &lt;1ms + OpenAI Whisper STT + Google Gemini 3.5
+    </text>
+
+    <!-- Feature Matrix Badges -->
+    <g transform="translate(0, 195)">
+      <!-- Badge 1: Local ML -->
+      <g transform="translate(0, 0)">
+        <rect width="165" height="32" rx="4" fill="#071329" stroke="#00f0ff" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="12" y="20" class="mono" font-size="11" fill="#00f0ff" font-weight="600">⚡ LOCAL ML &lt; 1MS</text>
+      </g>
+      <!-- Badge 2: OpenAI Whisper -->
+      <g transform="translate(175, 0)">
+        <rect width="185" height="32" rx="4" fill="#071329" stroke="#10b981" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="12" y="20" class="mono" font-size="11" fill="#10b981" font-weight="600">🎙️ WHISPER [SMALL.EN]</text>
+      </g>
+      <!-- Badge 3: Gemini 3.5 -->
+      <g transform="translate(370, 0)">
+        <rect width="180" height="32" rx="4" fill="#071329" stroke="#a855f7" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="12" y="20" class="mono" font-size="11" fill="#c084fc" font-weight="600">✨ GEMINI 3.5 FLASH</text>
+      </g>
+      <!-- Badge 4: Safe Tools -->
+      <g transform="translate(560, 0)">
+        <rect width="165" height="32" rx="4" fill="#071329" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="12" y="20" class="mono" font-size="11" fill="#fbbf24" font-weight="600">🛡️ SANDBOXED TOOLS</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Decorative Telemetry Line -->
+  <line x1="30" y1="365" x2="1170" y2="365" stroke="#00f0ff" stroke-width="0.75" stroke-opacity="0.25"/>
+  <text x="35" y="382" class="telemetry">CORE: ACTIVE</text>
+  <text x="210" y="382" class="telemetry">INTENT: 10 CLASSES CALIBRATED</text>
+  <text x="560" y="382" class="telemetry">AUDIO: 48KHZ OPUS + WHISPER VAD</text>
+  <text x="1005" y="382" class="telemetry">LICENSE: MIT OPEN SOURCE</text>
+</svg>

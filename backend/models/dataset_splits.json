@@ -1,0 +1,1292 @@
+{
+  "train": [
+    {
+      "text": "what is the distance between the earth and the moon",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "print list of reminders",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "can you search my computer for salespitchpptx",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "open text editor",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "can you read this pdf document for me",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "google search artificial intelligence breakthroughs",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "read the contents of researchpaperpdf",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "look up on the web recent tech announcements",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "remind me to check the oven in 15 minutes",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "start edge browser",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "are there any overdue reminders",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "get my reminder items",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "launch chrome",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "schedule reminder for sprint planning on wednesday",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "open vscode",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "show system diagnostics and memory usage",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "look for files named budget",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "what is the theory of general relativity",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "please open chrome browser",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "set an alarm or reminder for 7am",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "make it rain outside",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "how does the human immune system fight viruses",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "what is the battery percentage",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "can you open and read my notes",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "find files modified this week",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "search online for cheap flights to new york",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "open and read readmemd",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "can you explain how transformers work in ai",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "please open command prompt",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "tell me a joke",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "lock screen",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "lock my workstation",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "brew espresso",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "summon a dragon",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "bring up the calculator",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "check disk space and ram",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "parse the content of docx document",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "wash my laundry",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "bye jarvis see you later",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "load document contractfinaldocx",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "feed the cat",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "start chrome",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "what is the capital of australia",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "read out the content of remindernotestxt",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "repair my broken bicycle",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "start task manager immediately",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "look up todays news online",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "add a reminder to pay electricity bill on monday",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "check system resources",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "list reminders that are pending",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "fire up edge",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "search for pdf files in documents",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "bring up vs code",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "what is my current battery level",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "extract text from file reportpdf",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "search files for quarter 4 report",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "search for python scripts in my project",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "asdfghjkl qwerty",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "paint my bedroom blue",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "view all reminders",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "can you find my tax files",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "search directory for meeting minutes",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "show scheduled notifications",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "how does dna replication occur",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "what is your name",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "schedule a reminder to submit the report by 6pm",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "show system performance statistics",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "open visual studio code",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "browse the web for javascript tutorials",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "mute system volume",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "search for readme in jarvis project",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "pull up calculator",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "what is inside draftdocx",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "launch chrome",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "check upcoming tasks and reminders",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "cook pasta bolognese for dinner",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "inspect document auditlogtxt",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "show reminders marked incomplete",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "you are the best ai ever",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "can you read the contents of this document",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "read the following document instructionstxt",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "what is the atomic number of carbon",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "what is the speed of light in a vacuum",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "who invented the world wide web",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "how is your day going",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "fold my clothes",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "add reminder to call the bank tomorrow",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "where is the project proposal document",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "can you set a reminder to water the plants at 9am",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "set a reminder to buy groceries tomorrow at 10am",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "mute the speakers",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "why is the sky blue",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "do i have any scheduled reminders right now",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "search duckduckgo for fastapi documentation",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "why do planets orbit the sun in ellipses",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "search files with extension py",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "are you sentient",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "launch microsoft edge",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "add reminder buy milk and eggs on way home",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "fire up paint",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "extract text from projectreportdocx",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "read the pdf file on my desktop",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "order a pizza with extra cheese",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "search the web for mars rover status",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "find all documents about machine learning",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "what causes earthquakes",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "where did i save my research paper",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "open calc",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "remind me to call mom tonight",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "check my reminders",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "look up file reportdocx",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "create a reminder for team meeting on friday",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "locate backup files on disk",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "water the garden outside",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "who was nikola tesla",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "start notepad to take notes",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "hey what is up",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "open explorer",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "make me a cup of coffee",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "remind me to send status update tonight at 8",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "find files containing specification",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "remind me to follow up with client tomorrow",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "view reminders",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "execute notepad",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "can you run task manager",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "clean my physical room",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "restore volume sound",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "what reminders do i have today",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "turn volume to mute",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "lock workstation now",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "start cmd",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "read my resume pdf",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "read text from paperdocx",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "list all upcoming reminders",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "do i have any reminders for tomorrow",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "can you launch notepad for me",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "how do neural networks learn",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "good morning jarvis",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "open code editor",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "can you search the web for stock market updates",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "please launch file explorer",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "explain what a rest api is",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "start google chrome",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "search the internet for best restaurants nearby",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "nice to meet you",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "you are awesome",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "fire up chrome",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "set reminder for flight checkin tomorrow at noon",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "zap the alien spaceship",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "read out my reminders",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "set a reminder for moms birthday on sunday",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "remind me to take my medicine in 2 hours",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "can you lock the screen",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "show me what is written in summarytxt",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "what do you think of tony stark",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "find all docx files",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "fix the plumbing in bathroom",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "find my resume on this computer",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "lock my desktop",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "open notepad",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "open chrome",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "hey jarvis are you listening",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "how does photosynthesis work",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "look up online movie showtimes",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "open settings app",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "web search latest space discoveries",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "check cpu load",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "find document named contract",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "list all my reminders",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "read my journal entry text file",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "buy stock in apple on robinhood",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "can you read the briefpdf",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "good night jarvis sleep well",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "hi there jarvis",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "create a new reminder for gym workout at 6am",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "read file logtxt",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "explain how compilers optimize code",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "search for audio recordings",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "please open vscode",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "view my schedule and reminders",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "cut my hair",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "how does a jet engine work",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "start paint",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "who are you",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "what is entropy in thermodynamics",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "turn off sound",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "find on the internet reviews of electric vehicles",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "run notepad app",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "locate testresultsjson",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "can you be my friend",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "read the handbook pdf",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "greetings assistant",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "find information on the web about fusion energy",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "search the internet for recipe for lasagna",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "good evening jarvis",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "what is gradient descent in machine learning",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "drive my car to the grocery store",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "launch code editor",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "find all txt files in downloads",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "thank you very much for your help",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "lock workstation safely",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "hello jarvis how are you",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "search for zip archives in storage",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "look up where indexhtml is located",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "display all reminders in sqlite",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "what are my scheduled reminders",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "play flappy bird",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "internet search for symptoms of seasonal allergy",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "browse online for weather in tokyo",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "get system battery status",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "tell me what reminders are coming up",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "set reminder for doctor appointment at 3pm",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "remind me to pick up laundry at 6pm",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "remind me in 30 minutes to stretch",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "unmute system sound",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "start vscode",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "can you explain quantum entanglement in simple terms",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "can you remind me to drink water every hour",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "i appreciate your assistance",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "launch windows calculator",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "mute audio volume",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "iron my shirt",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "show me reminders for this week",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "web search for iron man mark 85 armor specs",
+      "intent": "WEB_SEARCH"
+    }
+  ],
+  "val": [
+    {
+      "text": "locate invoices from last month",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "what is the difference between supervised and unsupervised learning",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "open the front door of my house",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "create reminder to backup database at midnight",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "lock my pc",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "read the text file meetingnotestxt",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "find all images in pictures folder",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "look up python 312 release notes on the internet",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "launch vs code",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "open vs code",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "read the document notestxt",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "open media player",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "view the content inside documentdocx",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "read file presentationnotestxt",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "vacuum the rug",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "just wanted to say hi",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "fetch my reminder list",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "call an uber to airport",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "who wrote hamlet",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "display system hardware status",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "can you open vs code for me",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "bake a chocolate cake",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "explain the concept of recursion in programming",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "open system terminal",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "check cpu and memory usage",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "can you search online for machine learning courses",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "remind me to attend the webinar at 430pm",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "remind me to review code pull request at 4pm",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "what do i need to do today",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "can you find the file named notestxt",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "check my tasks and reminders",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "hello friend",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "why do we dream at night",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "how much ram is being used",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "teleport me to tokyo",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "can you open file explorer",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "launch vscode",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "can i see my active reminders",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "how are you feeling today",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "search the web for latest quantum computing news",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "search for spreadsheet files",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "thanks a lot",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "tell me about yourself",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "find configuration file settingsjson",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "how does encryption work",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "search the web for population of india",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "please start calculator",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "set a reminder finish homework by 9pm",
+      "intent": "SET_REMINDER"
+    }
+  ],
+  "test": [
+    {
+      "text": "locate document master plan",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "display pending reminders",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "can you open chrome",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "have a great day",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "it is nice chatting with you",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "open the edge browser",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "lock windows immediately",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "start my motorcycle",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "can you extract the text from invoicepdf",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "what is the law of conservation of energy",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "search online who won the world cup",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "what reminders do i have set",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "turn on the kitchen microwave",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "remind me to call john at 5 pm",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "open terminal",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "open and parse the pdf contract",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "what is dark matter and dark energy",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "unmute audio",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "open vlc player",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "display the content of specificationdocx",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "search duckduckgo for react 19 features",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "launch task manager",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "tell me something funny",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "summarize the contents of documenttxt",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "search for backend files",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "please lock my computer screen",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "launch wordpad",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "explain the difference between async and sync in python",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "remind me tomorrow morning to check emails",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "search for presentation slides on desktop",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "read through the quarterly report pdf",
+      "intent": "READ_DOCUMENT"
+    },
+    {
+      "text": "schedule a reminder to take a break at 1pm",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "are you real",
+      "intent": "GENERAL_CHAT"
+    },
+    {
+      "text": "see my reminder list",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "search online for current currency exchange rates",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "lock the computer",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "create reminder for dentist appointment next tuesday",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "can you open paint app",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "show me all active reminders",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "look for any pdf matching invoice",
+      "intent": "SEARCH_FILES"
+    },
+    {
+      "text": "turn on the ceiling fan in living room",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "set a reminder for project deadline tomorrow",
+      "intent": "SET_REMINDER"
+    },
+    {
+      "text": "explain the difference between process and thread",
+      "intent": "ANSWER_QUESTION"
+    },
+    {
+      "text": "perform a web search for nvidia gpu drivers",
+      "intent": "WEB_SEARCH"
+    },
+    {
+      "text": "fly to the moon",
+      "intent": "UNKNOWN"
+    },
+    {
+      "text": "system control mute",
+      "intent": "SYSTEM_CONTROL"
+    },
+    {
+      "text": "launch calculator",
+      "intent": "OPEN_APPLICATION"
+    },
+    {
+      "text": "show my reminders",
+      "intent": "VIEW_REMINDERS"
+    },
+    {
+      "text": "find my travel itinerary pdf",
+      "intent": "SEARCH_FILES"
+    }
+  ]
+}

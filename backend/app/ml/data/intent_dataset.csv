@@ -1,0 +1,322 @@
+text,intent
+open notepad,OPEN_APPLICATION
+launch calculator,OPEN_APPLICATION
+start paint,OPEN_APPLICATION
+can you open file explorer,OPEN_APPLICATION
+please open command prompt,OPEN_APPLICATION
+open the edge browser,OPEN_APPLICATION
+launch task manager,OPEN_APPLICATION
+open terminal,OPEN_APPLICATION
+run notepad app,OPEN_APPLICATION
+bring up the calculator,OPEN_APPLICATION
+fire up paint,OPEN_APPLICATION
+open explorer,OPEN_APPLICATION
+can you launch notepad for me,OPEN_APPLICATION
+please start calculator,OPEN_APPLICATION
+start edge browser,OPEN_APPLICATION
+launch chrome,OPEN_APPLICATION
+open vlc player,OPEN_APPLICATION
+launch vscode,OPEN_APPLICATION
+open code editor,OPEN_APPLICATION
+start task manager immediately,OPEN_APPLICATION
+open settings app,OPEN_APPLICATION
+launch microsoft edge,OPEN_APPLICATION
+start notepad to take notes,OPEN_APPLICATION
+open calc,OPEN_APPLICATION
+pull up calculator,OPEN_APPLICATION
+can you open paint app,OPEN_APPLICATION
+please launch file explorer,OPEN_APPLICATION
+execute notepad,OPEN_APPLICATION
+open system terminal,OPEN_APPLICATION
+launch windows calculator,OPEN_APPLICATION
+open text editor,OPEN_APPLICATION
+start cmd,OPEN_APPLICATION
+can you run task manager,OPEN_APPLICATION
+fire up edge,OPEN_APPLICATION
+open media player,OPEN_APPLICATION
+launch wordpad,OPEN_APPLICATION
+open chrome,OPEN_APPLICATION
+launch chrome,OPEN_APPLICATION
+start google chrome,OPEN_APPLICATION
+can you open chrome,OPEN_APPLICATION
+please open chrome browser,OPEN_APPLICATION
+fire up chrome,OPEN_APPLICATION
+open vs code,OPEN_APPLICATION
+launch vs code,OPEN_APPLICATION
+open vscode,OPEN_APPLICATION
+start vscode,OPEN_APPLICATION
+can you open vs code for me,OPEN_APPLICATION
+launch code editor,OPEN_APPLICATION
+open visual studio code,OPEN_APPLICATION
+bring up vs code,OPEN_APPLICATION
+please open vscode,OPEN_APPLICATION
+start chrome,OPEN_APPLICATION
+find my resume on this computer,SEARCH_FILES
+search for pdf files in documents,SEARCH_FILES
+look for files named budget,SEARCH_FILES
+where is the project proposal document,SEARCH_FILES
+search files for quarter 4 report,SEARCH_FILES
+find all txt files in downloads,SEARCH_FILES
+locate invoices from last month,SEARCH_FILES
+search for python scripts in my project,SEARCH_FILES
+can you find the file named notes.txt,SEARCH_FILES
+search for presentation slides on desktop,SEARCH_FILES
+find document named contract,SEARCH_FILES
+look up file report.docx,SEARCH_FILES
+find all images in pictures folder,SEARCH_FILES
+locate document master plan,SEARCH_FILES
+search for spreadsheet files,SEARCH_FILES
+find files modified this week,SEARCH_FILES
+search for readme in jarvis project,SEARCH_FILES
+can you find my tax files,SEARCH_FILES
+look for any pdf matching invoice,SEARCH_FILES
+find files containing specification,SEARCH_FILES
+search directory for meeting minutes,SEARCH_FILES
+find all docx files,SEARCH_FILES
+where did i save my research paper,SEARCH_FILES
+locate test_results.json,SEARCH_FILES
+search for zip archives in storage,SEARCH_FILES
+find configuration file settings.json,SEARCH_FILES
+search for backend files,SEARCH_FILES
+can you search my computer for sales_pitch.pptx,SEARCH_FILES
+look up where index.html is located,SEARCH_FILES
+search for audio recordings,SEARCH_FILES
+find my travel itinerary pdf,SEARCH_FILES
+locate backup files on disk,SEARCH_FILES
+search files with extension py,SEARCH_FILES
+find all documents about machine learning,SEARCH_FILES
+read the document notes.txt,READ_DOCUMENT
+read my resume pdf,READ_DOCUMENT
+extract text from project_report.docx,READ_DOCUMENT
+can you read this pdf document for me,READ_DOCUMENT
+summarize the contents of document.txt,READ_DOCUMENT
+open and read readme.md,READ_DOCUMENT
+display the content of specification.docx,READ_DOCUMENT
+read the text file meeting_notes.txt,READ_DOCUMENT
+read through the quarterly report pdf,READ_DOCUMENT
+can you extract the text from invoice.pdf,READ_DOCUMENT
+what is inside draft.docx,READ_DOCUMENT
+read file log.txt,READ_DOCUMENT
+read the contents of research_paper.pdf,READ_DOCUMENT
+load document contract_final.docx,READ_DOCUMENT
+can you open and read my notes,READ_DOCUMENT
+read the pdf file on my desktop,READ_DOCUMENT
+show me what is written in summary.txt,READ_DOCUMENT
+parse the content of docx document,READ_DOCUMENT
+read the following document instructions.txt,READ_DOCUMENT
+inspect document audit_log.txt,READ_DOCUMENT
+can you read the brief.pdf,READ_DOCUMENT
+read text from paper.docx,READ_DOCUMENT
+extract text from file report.pdf,READ_DOCUMENT
+read out the content of reminder_notes.txt,READ_DOCUMENT
+view the content inside document.docx,READ_DOCUMENT
+read file presentation_notes.txt,READ_DOCUMENT
+open and parse the pdf contract,READ_DOCUMENT
+read my journal entry text file,READ_DOCUMENT
+can you read the contents of this document,READ_DOCUMENT
+read the handbook pdf,READ_DOCUMENT
+remind me to call John at 5 pm,SET_REMINDER
+set a reminder to buy groceries tomorrow at 10am,SET_REMINDER
+create a reminder for team meeting on Friday,SET_REMINDER
+remind me to take my medicine in 2 hours,SET_REMINDER
+set reminder for doctor appointment at 3pm,SET_REMINDER
+schedule a reminder to submit the report by 6pm,SET_REMINDER
+remind me tomorrow morning to check emails,SET_REMINDER
+add a reminder to pay electricity bill on monday,SET_REMINDER
+can you remind me to drink water every hour,SET_REMINDER
+set a reminder for mom's birthday on sunday,SET_REMINDER
+remind me to review code pull request at 4pm,SET_REMINDER
+create reminder for dentist appointment next tuesday,SET_REMINDER
+set an alarm or reminder for 7am,SET_REMINDER
+remind me in 30 minutes to stretch,SET_REMINDER
+add reminder to call the bank tomorrow,SET_REMINDER
+remind me to send status update tonight at 8,SET_REMINDER
+schedule reminder for sprint planning on wednesday,SET_REMINDER
+can you set a reminder to water the plants at 9am,SET_REMINDER
+remind me to pick up laundry at 6pm,SET_REMINDER
+set a reminder: finish homework by 9pm,SET_REMINDER
+create a new reminder for gym workout at 6am,SET_REMINDER
+remind me to check the oven in 15 minutes,SET_REMINDER
+set a reminder for project deadline tomorrow,SET_REMINDER
+remind me to call mom tonight,SET_REMINDER
+schedule a reminder to take a break at 1pm,SET_REMINDER
+set reminder for flight check-in tomorrow at noon,SET_REMINDER
+add reminder: buy milk and eggs on way home,SET_REMINDER
+remind me to attend the webinar at 4:30pm,SET_REMINDER
+create reminder to backup database at midnight,SET_REMINDER
+remind me to follow up with client tomorrow,SET_REMINDER
+show my reminders,VIEW_REMINDERS
+what reminders do i have today,VIEW_REMINDERS
+list all upcoming reminders,VIEW_REMINDERS
+view my schedule and reminders,VIEW_REMINDERS
+do i have any reminders for tomorrow,VIEW_REMINDERS
+check my reminders,VIEW_REMINDERS
+display pending reminders,VIEW_REMINDERS
+show me all active reminders,VIEW_REMINDERS
+what do i need to do today,VIEW_REMINDERS
+list all my reminders,VIEW_REMINDERS
+see my reminder list,VIEW_REMINDERS
+are there any overdue reminders,VIEW_REMINDERS
+read out my reminders,VIEW_REMINDERS
+check upcoming tasks and reminders,VIEW_REMINDERS
+show me reminders for this week,VIEW_REMINDERS
+what are my scheduled reminders,VIEW_REMINDERS
+display all reminders in sqlite,VIEW_REMINDERS
+fetch my reminder list,VIEW_REMINDERS
+show scheduled notifications,VIEW_REMINDERS
+list reminders that are pending,VIEW_REMINDERS
+tell me what reminders are coming up,VIEW_REMINDERS
+view all reminders,VIEW_REMINDERS
+do i have any scheduled reminders right now,VIEW_REMINDERS
+get my reminder items,VIEW_REMINDERS
+print list of reminders,VIEW_REMINDERS
+can i see my active reminders,VIEW_REMINDERS
+show reminders marked incomplete,VIEW_REMINDERS
+what reminders do i have set,VIEW_REMINDERS
+check my tasks and reminders,VIEW_REMINDERS
+view reminders,VIEW_REMINDERS
+lock my workstation,SYSTEM_CONTROL
+lock the computer,SYSTEM_CONTROL
+lock windows immediately,SYSTEM_CONTROL
+can you lock the screen,SYSTEM_CONTROL
+lock my pc,SYSTEM_CONTROL
+mute system volume,SYSTEM_CONTROL
+unmute audio,SYSTEM_CONTROL
+turn off sound,SYSTEM_CONTROL
+mute the speakers,SYSTEM_CONTROL
+unmute system sound,SYSTEM_CONTROL
+get system battery status,SYSTEM_CONTROL
+check cpu and memory usage,SYSTEM_CONTROL
+show system diagnostics and memory usage,SYSTEM_CONTROL
+what is my current battery level,SYSTEM_CONTROL
+check system resources,SYSTEM_CONTROL
+lock workstation now,SYSTEM_CONTROL
+please lock my computer screen,SYSTEM_CONTROL
+mute audio volume,SYSTEM_CONTROL
+check disk space and ram,SYSTEM_CONTROL
+how much ram is being used,SYSTEM_CONTROL
+show system performance statistics,SYSTEM_CONTROL
+lock screen,SYSTEM_CONTROL
+lock my desktop,SYSTEM_CONTROL
+turn volume to mute,SYSTEM_CONTROL
+restore volume sound,SYSTEM_CONTROL
+display system hardware status,SYSTEM_CONTROL
+check cpu load,SYSTEM_CONTROL
+what is the battery percentage,SYSTEM_CONTROL
+lock workstation safely,SYSTEM_CONTROL
+system control mute,SYSTEM_CONTROL
+search the web for latest quantum computing news,WEB_SEARCH
+browse online for weather in Tokyo,WEB_SEARCH
+look up python 3.12 release notes on the internet,WEB_SEARCH
+google search artificial intelligence breakthroughs,WEB_SEARCH
+search online for cheap flights to New York,WEB_SEARCH
+search the internet for best restaurants nearby,WEB_SEARCH
+can you search the web for stock market updates,WEB_SEARCH
+look up today's news online,WEB_SEARCH
+search duckduckgo for fastapi documentation,WEB_SEARCH
+web search for iron man mark 85 armor specs,WEB_SEARCH
+search online who won the world cup,WEB_SEARCH
+find information on the web about fusion energy,WEB_SEARCH
+browse the web for javascript tutorials,WEB_SEARCH
+search the internet for recipe for lasagna,WEB_SEARCH
+look up on the web recent tech announcements,WEB_SEARCH
+perform a web search for nvidia gpu drivers,WEB_SEARCH
+search online for current currency exchange rates,WEB_SEARCH
+web search latest space discoveries,WEB_SEARCH
+find on the internet reviews of electric vehicles,WEB_SEARCH
+search duckduckgo for react 19 features,WEB_SEARCH
+look up online movie showtimes,WEB_SEARCH
+search the web for population of India,WEB_SEARCH
+can you search online for machine learning courses,WEB_SEARCH
+internet search for symptoms of seasonal allergy,WEB_SEARCH
+search the web for mars rover status,WEB_SEARCH
+what is the theory of general relativity,ANSWER_QUESTION
+how does photosynthesis work,ANSWER_QUESTION
+why is the sky blue,ANSWER_QUESTION
+can you explain quantum entanglement in simple terms,ANSWER_QUESTION
+what is the speed of light in a vacuum,ANSWER_QUESTION
+who was Nikola Tesla,ANSWER_QUESTION
+explain the difference between async and sync in python,ANSWER_QUESTION
+how do neural networks learn,ANSWER_QUESTION
+what causes earthquakes,ANSWER_QUESTION
+what is the capital of Australia,ANSWER_QUESTION
+explain the difference between process and thread,ANSWER_QUESTION
+how does a jet engine work,ANSWER_QUESTION
+what is gradient descent in machine learning,ANSWER_QUESTION
+why do planets orbit the sun in ellipses,ANSWER_QUESTION
+who invented the World Wide Web,ANSWER_QUESTION
+what is the atomic number of carbon,ANSWER_QUESTION
+explain what a rest api is,ANSWER_QUESTION
+how does dna replication occur,ANSWER_QUESTION
+what is the law of conservation of energy,ANSWER_QUESTION
+can you explain how transformers work in AI,ANSWER_QUESTION
+why do we dream at night,ANSWER_QUESTION
+what is the distance between the earth and the moon,ANSWER_QUESTION
+how does encryption work,ANSWER_QUESTION
+what is the difference between supervised and unsupervised learning,ANSWER_QUESTION
+explain how compilers optimize code,ANSWER_QUESTION
+who wrote Hamlet,ANSWER_QUESTION
+what is entropy in thermodynamics,ANSWER_QUESTION
+how does the human immune system fight viruses,ANSWER_QUESTION
+what is dark matter and dark energy,ANSWER_QUESTION
+explain the concept of recursion in programming,ANSWER_QUESTION
+hello Jarvis how are you,GENERAL_CHAT
+good morning Jarvis,GENERAL_CHAT
+hey what's up,GENERAL_CHAT
+who are you,GENERAL_CHAT
+tell me a joke,GENERAL_CHAT
+how is your day going,GENERAL_CHAT
+you are awesome,GENERAL_CHAT
+good evening jarvis,GENERAL_CHAT
+thank you very much for your help,GENERAL_CHAT
+are you real,GENERAL_CHAT
+what is your name,GENERAL_CHAT
+tell me about yourself,GENERAL_CHAT
+greetings assistant,GENERAL_CHAT
+nice to meet you,GENERAL_CHAT
+have a great day,GENERAL_CHAT
+how are you feeling today,GENERAL_CHAT
+you are the best ai ever,GENERAL_CHAT
+hi there jarvis,GENERAL_CHAT
+hello friend,GENERAL_CHAT
+just wanted to say hi,GENERAL_CHAT
+good night jarvis sleep well,GENERAL_CHAT
+can you be my friend,GENERAL_CHAT
+i appreciate your assistance,GENERAL_CHAT
+are you sentient,GENERAL_CHAT
+what do you think of Tony Stark,GENERAL_CHAT
+thanks a lot,GENERAL_CHAT
+hey jarvis are you listening,GENERAL_CHAT
+it is nice chatting with you,GENERAL_CHAT
+tell me something funny,GENERAL_CHAT
+bye jarvis see you later,GENERAL_CHAT
+make me a cup of coffee,UNKNOWN
+fly to the moon,UNKNOWN
+order a pizza with extra cheese,UNKNOWN
+play flappy bird,UNKNOWN
+turn on the kitchen microwave,UNKNOWN
+teleport me to Tokyo,UNKNOWN
+asdfghjkl qwerty,UNKNOWN
+clean my physical room,UNKNOWN
+drive my car to the grocery store,UNKNOWN
+cook pasta bolognese for dinner,UNKNOWN
+wash my laundry,UNKNOWN
+paint my bedroom blue,UNKNOWN
+summon a dragon,UNKNOWN
+feed the cat,UNKNOWN
+fold my clothes,UNKNOWN
+brew espresso,UNKNOWN
+bake a chocolate cake,UNKNOWN
+water the garden outside,UNKNOWN
+repair my broken bicycle,UNKNOWN
+turn on the ceiling fan in living room,UNKNOWN
+zap the alien spaceship,UNKNOWN
+start my motorcycle,UNKNOWN
+buy stock in apple on robinhood,UNKNOWN
+open the front door of my house,UNKNOWN
+make it rain outside,UNKNOWN
+iron my shirt,UNKNOWN
+vacuum the rug,UNKNOWN
+call an uber to airport,UNKNOWN
+cut my hair,UNKNOWN
+fix the plumbing in bathroom,UNKNOWN

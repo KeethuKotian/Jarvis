@@ -1,0 +1,231 @@
+{
+  "dataset_split": "held_out_test_set",
+  "total_test_samples": 49,
+  "accuracy": 0.9388,
+  "macro_f1": 0.9263,
+  "average_latency_ms": 1.068,
+  "p95_latency_ms": 1.185,
+  "calibrated_threshold": 0.4,
+  "per_class_metrics": {
+    "ANSWER_QUESTION": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4
+    },
+    "GENERAL_CHAT": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571,
+      "support": 4
+    },
+    "OPEN_APPLICATION": {
+      "precision": 0.8889,
+      "recall": 1.0,
+      "f1-score": 0.9412,
+      "support": 8
+    },
+    "READ_DOCUMENT": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5
+    },
+    "SEARCH_FILES": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5
+    },
+    "SET_REMINDER": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5
+    },
+    "SYSTEM_CONTROL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5
+    },
+    "UNKNOWN": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6667,
+      "support": 4
+    },
+    "VIEW_REMINDERS": {
+      "precision": 0.8333,
+      "recall": 1.0,
+      "f1-score": 0.9091,
+      "support": 5
+    },
+    "WEB_SEARCH": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8889,
+      "support": 4
+    }
+  },
+  "classes": [
+    "ANSWER_QUESTION",
+    "GENERAL_CHAT",
+    "OPEN_APPLICATION",
+    "READ_DOCUMENT",
+    "SEARCH_FILES",
+    "SET_REMINDER",
+    "SYSTEM_CONTROL",
+    "UNKNOWN",
+    "VIEW_REMINDERS",
+    "WEB_SEARCH"
+  ],
+  "confusion_matrix": [
+    [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "misclassifications_count": 3,
+  "misclassifications": [
+    {
+      "query": "have a great day",
+      "actual_intent": "GENERAL_CHAT",
+      "predicted_intent": "VIEW_REMINDERS",
+      "confidence": 0.1436
+    },
+    {
+      "query": "start my motorcycle",
+      "actual_intent": "UNKNOWN",
+      "predicted_intent": "OPEN_APPLICATION",
+      "confidence": 0.3889
+    },
+    {
+      "query": "turn on the kitchen microwave",
+      "actual_intent": "UNKNOWN",
+      "predicted_intent": "WEB_SEARCH",
+      "confidence": 0.2303
+    }
+  ],
+  "limitations_analysis": [
+    "Intent classifier relies on unigram and bigram TF-IDF patterns; highly complex multi-clause instructions require Gemini LLM fallback.",
+    "Short ambiguous queries (e.g. single words) may lack n-gram context and fall below the calibrated confidence threshold.",
+    "Out-of-vocabulary or novel domain slang is routed to Gemini API for reasoning rather than executing potentially unintended computer tools."
+  ]
+}
